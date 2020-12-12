@@ -1,0 +1,8 @@
+gcc -g -o paixu.c paixu
+ls
+pwd
+gcc -g -o paixu paixu.c
+gcc -g -o test.c test
+gcc -g -o test test.c
+ ls
+pwdx

@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC   -shared -Wl,-soname,liberime.so -o liberime.so CMakeFiles/erime.dir/src/interface.c.o CMakeFiles/erime.dir/src/liberime.c.o CMakeFiles/erime.dir/src/init.c.o -lrime 

@@ -1,0 +1,6 @@
+(add-to-list 'load-path (expand-file-name "~/.emacs.d/elpa-cong"))
+(autoload 'auto-update-file-header "header2")
+(add-hook 'write-file-hooks 'auto-update-file-header)
+(autoload 'auto-make-header "header2")
+(add-hook 'c-mode-hook 'auto-make-header)
+(provide 'auto-head-message)

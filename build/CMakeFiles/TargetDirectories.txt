@@ -1,3 +1,0 @@
-/home/cong/.emacs.d/build/CMakeFiles/rebuild_cache.dir
-/home/cong/.emacs.d/build/CMakeFiles/erime.dir
-/home/cong/.emacs.d/build/CMakeFiles/edit_cache.dir

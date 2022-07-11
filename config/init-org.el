@@ -404,8 +404,7 @@ typical word processor."
 
 
 ;; table align in Chinese character
-(add-to-list 'load-path (expand-file-name "~/.emacs.d/config/package/valign"))
-(require 'valign)
+(require-package 'valign)
 (add-hook 'org-mode-hook #'valign-mode)
 
 

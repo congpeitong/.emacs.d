@@ -393,8 +393,9 @@ typical word processor."
 (setq org-startup-folded nil)
 ;; 默认缩进内容
 (setq org-startup-indented t)
-(add-to-list 'load-path (expand-file-name "~/.emacs.d/config/package"))
-(require 'org-superstar)
+
+;;美化标题
+(require-package 'org-superstar)
 (setq org-inlinetask-show-first-star t)
 (add-hook 'org-mode-hook (lambda () (org-superstar-mode 2)))
 ;; 设置标题

@@ -400,8 +400,16 @@ typical word processor."
 ;; 设置标题
 (setq org-superstar-headline-bullets-list '("◈" "♢" "◉" "●" "⊙" "○")
       org-superstar-prettify-item-bullets t )
-
 (setq org-ellipsis " ▼") ;; 收缩内容,将.....替换为倒三角
+
+
+;; table align in Chinese character
+(add-to-list 'load-path (expand-file-name "~/.emacs.d/config/package/valign"))
+(require 'valign)
+(add-hook 'org-mode-hook #'valign-mode)
+
+
+
 ;;=====美化org-mode结束==================
 
 ;;org-num 编号设置

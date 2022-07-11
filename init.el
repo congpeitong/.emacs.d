@@ -170,7 +170,8 @@
 ;;(require 'init-mail)
 ;;(require 'auth-source)
 ;;(setq auth-sources '("~/.emacs.d/.authinfo" "~/.emacs.d/.authinfo.gpg"))
-(require 'init-gnus)
+
+;;(require 'init-gnus)
 
 
 (provide 'init)

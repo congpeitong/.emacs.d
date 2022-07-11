@@ -14,7 +14,7 @@
 ;;; Some basic preferences
 (set-cursor-color "#f08080") ;; 设置光标颜色
 (setq-default
- blink-cursor-interval 1 ;; 光标闪烁的间隔时间
+ blink-cursor-interval 0.5 ;; 光标闪烁的间隔时间
  bookmark-default-file (locate-user-emacs-file ".bookmarks.el")
  buffers-menu-max-size 30
  case-fold-search t
